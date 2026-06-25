@@ -8,16 +8,13 @@ public class ArrayRotator {
         rotateRight(arr, k);
         System.out.println("Rotated Array:  " + Arrays.toString(arr));
     }
-
     public static void rotateRight(int[] arr, int k) {
         if (arr == null || arr.length <= 1) {
             return;
         }
 
         int n = arr.length;
-        
         k = k % n; 
-        
         if (k == 0) {
             return;
         }
