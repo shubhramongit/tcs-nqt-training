@@ -1,8 +1,6 @@
 public class ValidPalindrome{
-
     public static void main(String[] args) {
         String s = "a-b-C&b4a";
-        
         System.out.println("Original String: " + s);
         checkAndPrintPalindrome(s);
     }
